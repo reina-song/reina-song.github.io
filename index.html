@@ -1,16 +1,76 @@
 <!DOCTYPE html>
-    <head>
-        <meta charset="UTF-8">
-        <title>
-            Week 2!
-        </title>
-        <script src="p5.min.js"></script>
-    </head>
-    <body>
-        <a href="assignment1">Assignment 1</a>
-        <a href="assignment2">Assignment 2</a>
-        <a href="assignment3">Assignment 3</a>
-        <a href="assignment4">Final assignment</a>
-        <script src="sketch.js"></script>
-    </body>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Reina Song: Start a Website</title>
+    <link rel="icon" type="image/x-icon" href="block-xs.png">
+    <script src="p5.min.js"></script>
+</head>
+
+<body class="container">
+    <div class="assignment-banner">
+        <a href="https://www.instagram.com/takkoyakki.cat/" target="_blank"><img src="takko.png" alt="my first cat takko" width="720"></a>
+    </div>
+    <div class="future-assignments component">
+        <h1>Future Assignments list</h1>
+        <ul>
+            <li><a href="" onclick="alert('This will have a link to HTML files for assignment 2 when ready')">Assignment 2</a></li>
+            <li><a href="" onclick="alert('This will have a link to HTML files for assignment 3 when ready')">Assignment 3</a></li>
+            <li><a href="" onclick="alert('This will have a link to HTML files for assignment 4 when ready')">Assignment 4</a></li>
+            <li><a href="" onclick="alert('This will have a link to HTML files for assignment 5 when ready')">Assignment 5</a></li>
+            <li><a href="" onclick="alert('This will have a link to HTML files for the final assignment when it is ready')">Final assignment</a></li>
+        </ul>
+    </div>
+    <div class="labs-banner banner">
+        <a href="https://www.instagram.com/takkoyakki.cat/" target="_blank"><img src="yakki.png" alt="my second cat yakki" width="720"></a>
+    </div>
+    <div class="labs component">
+        <h1 width="720">Labs list</h1>
+        <ul>
+            <li><a href="" onclick="alert('This will have a link to HTML files for Lab 1 when ready')">Lab 1</a></li>
+            <li><a href="" onclick="alert('This will have a link to HTML files for Lab 2 when ready')">Lab 2</a></li>
+            <li><a href="" onclick="alert('This will have a link to HTML files for Lab 3 when ready')">Lab 3</a></li>
+            <li><a href="" onclick="alert('This will have a link to HTML files for Lab 4 when ready')">Lab 4</a></li>
+            <li><a href="" onclick="alert('This will have a link to HTML files for Lab 5 when ready')">Lab 4</a></li>
+        </ul>
+    </div>
+    <script src="sketch.js"></script>
+</body>
+
 </html>
+
+<style>
+    .container {
+        margin: 0 auto;
+        width: 720px;
+        text-align: center;
+    }
+    .component {
+        text-align: left;
+        padding-left: 20px;
+    }
+    h1 {
+        margin-top: 10px;
+        margin-bottom: 2px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 24px;
+    }
+    ul {
+        display: inline-block;
+        text-align: left;
+        margin-bottom: 30px;
+    }
+    li {
+        padding-bottom: 8px;
+    }
+    a {
+        color: black;
+        text-decoration: none;
+        size: 20p;
+        font-size: 18px;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    a:hover {
+        background-color: rgb(255, 182, 177);
+    }
+</style>

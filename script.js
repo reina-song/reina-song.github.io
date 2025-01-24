@@ -1,13 +1,16 @@
-0; // this is a comment, which means that javascript will not try to execute;
+0; // this is a comment, which means that javascript will not try to execute this part;
 123456789;
 12345.6789;
 Infinity;
+-13434;
+-Infinity;
+-0;
 
 var kitty; // declared a variable for store space in memory;
 
 kitty = 5; // definition with a data type of number with the value 5
 
-var Kitty = 24; // semi are end of statement, this line has a definition and
+var Kitty = 24; // semi are end of statement, this line has a definition and declaration
 
 console.log(Kitty);
 

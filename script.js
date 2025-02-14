@@ -12,7 +12,7 @@ kitty = 5; // definition with a data type of number with the value 5
 
 var Kitty = 24; // semi are end of statement, this line has a definition and declaration
 
-console.log(Kitty);
+console.log(kitty);
 
 kitty = Kitty; // = assignment operator, right to left
 

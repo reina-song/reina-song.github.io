@@ -13,3 +13,5 @@ function draw(){
     y = y + 2;
     y = y % 190;
 }
+
+console.log(x);

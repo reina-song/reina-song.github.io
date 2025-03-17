@@ -7,6 +7,7 @@ let catsInHome = [];
 let catsInCar = []; 
 
 function preload(){
+    // Repurposed preload & loadImage refer to https://p5js.org/reference/p5/image/
     bg = loadImage('assets/background.png');
     car = loadImage('assets/car.png');
     catsInHome = [
@@ -54,6 +55,7 @@ function setup(){
     button.position(50,130);
     button.mousePressed(function(){
         if(catsInHome.length > 0) {
+            // Tried shift instead of pop refer to https://www.w3schools.com/jsref/jsref_shift.asp to remove first item
             let cat = catsInHome.shift() //고양이라는게 있음, 그거는 뭔데? 집에있는고양이어레이에서 (shift)앞에서부터 하나씩 빼는거임 - pop 은 뒤에서부터 빼는거임
             catsInCar.push(cat) // 그 고양이를 지정했으니, 이제 뭘 시켜야지. 뺀 (고양이)를 어디로 push 할테냐? - 자동차에있는 고양이로 push(넣는다)!
         }

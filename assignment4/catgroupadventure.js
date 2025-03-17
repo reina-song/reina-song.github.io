@@ -43,7 +43,7 @@ function setup(){
     canvas = createCanvas(1000, 700);
     canvas.position(50,200);
 
-    greeting = createElement('h1', "Make cats to jump in the car to start the journey!")
+    greeting = createElement('h1', "Make the cats to jump into the car to begin the journey!")
     greeting.position(50, 50);
 
     let button = createButton('Jump in!');

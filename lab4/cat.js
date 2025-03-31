@@ -1,7 +1,7 @@
 let kitty;
 
 function preload() {
-    kitty = loadImage('/assets/yakki.png');
+    kitty = loadImage('/lab4/assets/yakki.png');
   }
 
 function setup() {

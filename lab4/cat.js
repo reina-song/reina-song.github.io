@@ -1,7 +1,7 @@
 let kitty;
 
 function preload() {
-    kitty = loadImage('/lab4/assets/yakki.png');
+    kitty = loadImage('/yakki.png');
   }
 
 function setup() {
@@ -31,7 +31,7 @@ function setup() {
     image(img, 500, 550);
   
 
-    let video = createVideo('/assets/yakki.mov');
+    let video = createVideo('/yakki.mov');
     video.size(windowWidth/2, windowHeight/2);
     video.position(20, 10); 
     video.showControls();

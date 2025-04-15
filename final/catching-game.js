@@ -4,46 +4,46 @@ let score = 0;
 let fallingObjects = [];
 
 function preload() {
-    takko = loadImage("/assets/takko.png");
-    yakki = loadImage("/assets/yakki.png");
-    minnie = loadImage("/assets/minnie.png");
-    cooper = loadImage("/assets/cooper.png");
+    takko = loadImage("assets/takko.png");
+    yakki = loadImage("assets/yakki.png");
+    minnie = loadImage("assets/minnie.png");
+    cooper = loadImage("assets/cooper.png");
 
-    catFood = loadImage("/assets/catfood.png");
-    catTreat = loadImage("/assets/cattreat.png");
-    water = loadImage("/assets/water.png");
+    catFood = loadImage("assets/catfood.png");
+    catTreat = loadImage("assets/cattreat.png");
+    water = loadImage("assets/water.png");
 
-    vacuum = loadImage("/assets/vacuum.png");
-    dust = loadImage("/assets/dust.png");
-    bug = loadImage("/assets/bug.png");
+    vacuum = loadImage("assets/vacuum.png");
+    dust = loadImage("assets/dust.png");
+    bug = loadImage("assets/bug.png");
 
-    legendImg = loadImage("/assets/legend.png");
+    legendImg = loadImage("assets/legend.png");
 }
 
 function setup() {
     createCanvas(windowWidth, windowHeight);
-    button1 = createImg("/assets/takko.png");
+    button1 = createImg("assets/takko.png");
     button1.position(windowWidth / 2.8, windowHeight / 1.56);
     button1.size(150, 150);
     button1.style("cursor", "pointer");
     button1.mousePressed(function () {
         selectCharacter(takko);
     });
-    button2 = createImg("/assets/yakki.png");
+    button2 = createImg("assets/yakki.png");
     button2.position(windowWidth / 2.3, windowHeight / 1.56);
     button2.size(150, 150);
     button2.style("cursor", "pointer");
     button2.mousePressed(function () {
         selectCharacter(yakki);
     });
-    button3 = createImg("/assets/minnie.png");
+    button3 = createImg("assets/minnie.png");
     button3.position(windowWidth / 2, windowHeight / 1.56);
     button3.size(150, 150);
     button3.style("cursor", "pointer");
     button3.mousePressed(function () {
         selectCharacter(minnie);
     });
-    button4 = createImg("/assets/cooper.png");
+    button4 = createImg("assets/cooper.png");
     button4.position(windowWidth / 1.75, windowHeight / 1.56);
     button4.size(150, 150);
     button4.style("cursor", "pointer");

@@ -4,7 +4,7 @@ let score = 0;
 let fallingObjects = [];
 
 function preload() {
-    takko = loadImage("final/assets/takko.png");
+    takko = loadImage("assets/takko.png");
     yakki = loadImage("assets/yakki.png");
     minnie = loadImage("assets/minnie.png");
     cooper = loadImage("assets/cooper.png");
